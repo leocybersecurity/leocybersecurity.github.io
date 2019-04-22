@@ -2,6 +2,7 @@
 layout: page
 title: Minimum Requirements
 permalink: /virtual-appliance/minimum-requirements.html
+exclude: True
 ---
 
 # About this document
