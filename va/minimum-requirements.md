@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /virtual_appliance/minimum-requirements.html
-exclude: true
+title: Minimum Requirements
+permalink: /virtual-appliance/minimum-requirements.html
 ---
 
 # About this document

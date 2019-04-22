@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Virtual Appliance version 1.0
-permalink: /virtual_appliance/
+permalink: /virtual-appliance/
 ---
 
 # About this document
