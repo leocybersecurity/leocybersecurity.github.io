@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Install the Virtual Appliance Operating System
+title: How to Install the Virtual Appliance
 permalink: /virtual-appliance/install.html
 exclude: True
 ---
