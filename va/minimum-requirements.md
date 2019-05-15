@@ -7,15 +7,29 @@ exclude: True
 
 # About this document
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This document describes the hardware requirements for your Virtual Appliance.
 
-# A list of Minimum requirements
-* Lorem ipsum
-    * dolor sit amet
-    * consectetur adipiscing elit
-    * sed do eiusmod tempor
-* Ut enim ad minim veniam
-    * quis nostrud exercitation
-    * ullamco laboris nisi ut aliquip
-    * ex ea commodo consequat
+# Recommended Configurations
+* Physical machine
+    * 1 CPU core + 1 for each 250 Mbps of inspected traffic
+    * 8 GB RAM
+    * Disks:
+        * 20 GB root mount
+        * 20 GB opt mount
+        * 20 GB var mount
+        * 4 GB swap mount
+* Virtual Machine
+    * 1 CPU core + 1 for each 250 Mbps of inspected traffic
+    * 8 GB RAM
+    * Disks:
+        * 60 GB root mount
+        * 0 GB swap mount
+* Minimum Configuration
+    * 2 CPU core
+    * 4 GB RAM
+    * 50 GB root mount
 
+# Important Notes
+* One CPU can manage about 250Mbps of traffic inspection
+* We recommend at least on CPU allocated just for the OS
+* Minimum recommended configuration, therefore, should be at least 2 CPUs
