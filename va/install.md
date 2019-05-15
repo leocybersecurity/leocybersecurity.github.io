@@ -12,8 +12,8 @@ This document helps LEO customers install the VA from scratch on a brand new vir
 1. Retrieve your device ID and license key from [ETS](https://ets.leocybersecurity.com/)
 2. Install a secure shell client on your desktop machine
 3. Setup your host VM according to the [minimum requirements](minimum-requirements)
-4. Setup your network devices to use promiscuous mode.  Please see your network equipment manufarcturer's documentation for more information
-5. Setup you management interface for Internet access.  Your management interface will need to reach the following end-points:
+4. Setup your network devices to use promiscuous mode.  Please see your network equipment manufacturer's documentation for more information
+5. Setup your management interface for Internet access.  Your management interface will need to reach the following end-points:
     * https://mvpn.leocybersecurity.com
     * https://lvpn.leocybersecurity.com
     * https://hfystmmgp5.execute-api.us-east-2.amazonaws.com (configuration only)
