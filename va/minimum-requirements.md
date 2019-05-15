@@ -12,17 +12,17 @@ This document describes the hardware requirements for your Virtual Appliance.
 # Recommended Configurations
 * Physical machine
     * 1 CPU core + 1 for each 250 Mbps of inspected traffic
-    * 8 GB RAM
+    * 8 GB RAM + 4 GB per core
     * Disks:
         * 20 GB root mount
-        * 20 GB opt mount
+        * 20 GB opt mount + 10 GB per core
         * 20 GB var mount
         * 4 GB swap mount
 * Virtual Machine
     * 1 CPU core + 1 for each 250 Mbps of inspected traffic
-    * 8 GB RAM
+    * 8 GB RAM + 4 GB per core 
     * Disks:
-        * 60 GB root mount
+        * 60 GB root mount + 10 GB per core
         * 0 GB swap mount
 * Minimum Configuration
     * 2 CPU core
