@@ -20,7 +20,7 @@ This document helps LEO customers install the VA from scratch on a brand new vir
     * https://s3.us-east-2.amazonaws.com (configuration only)
 
 # Step 1: Download and mount the ISO from LEO Cybser Security
-1. Visit [https://iso.leocybersecurity.com/latest/]()
+1. Visit [https://iso.leocybersecurity.com/latest/](https://iso.leocybersecurity.com/latest/)
 2. Download the ISO (the file is about 760 MB)
 3. Place the ISO in a storage location accessible to your virtualization environment
 4. Mount the ISO to a virtual optical device attached to your virtual machine
