@@ -9,7 +9,7 @@ This document is to help LEO customers navigate the documentation available for 
 
 # Table of Contents
 * [Getting Started]()
-    * [Available Features]()
+    * [Available Features](available-features-1.0)
     * [Licensing]()
     * [Minimum Requirements for your virtual appliance host](minimum-requirements)
     * [Setting up your network in promiscuous mode]()
