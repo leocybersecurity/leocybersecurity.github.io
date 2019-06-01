@@ -27,7 +27,7 @@ This document helps LEO customers install the VA from scratch on a brand new vir
 5. Power on the virtual machine
 
 # Step 2: Install the virtual appliance
-1. Press `enter` to select *Install Virtual Appliance*
+1. Press `enter` to select **Install Virtual Appliance**
 2. Wait for the unattended installation to complete
 3. The machine will reboot.  Once reboot is complete, log into the console using the following credentials:
     * `user: customer`
@@ -35,8 +35,8 @@ This document helps LEO customers install the VA from scratch on a brand new vir
 
 # Step 3: Configure the virtual appliance
 1. **Important**: Change your default password immediately and record it in a secure location
-    1. Select `User Settings`
-    2. In the `Old Password` field, type `customer`
+    1. Select **User Settings**
+    2. In the **Old Password** field, type `customer`
     3. Update your password according to the following requirements:
         * 10 characters
         * at least one number
@@ -48,15 +48,15 @@ This document helps LEO customers install the VA from scratch on a brand new vir
 
     > **Note**: Please see [more about interfaces](more-about-interfaces) for further information. 
 
-    1. Select `Interface Configuration`
-    2. Select `turn monitoring mode on` for your promiscuous interface
+    1. Select **Interface Configuration**
+    2. Select **turn monitoring mode on** for your promiscuous interface
     3. Continue to configure other interfaces as required
 3. Input your device ID and license key
 
     > **Note**: Please see [more about devices](more-about-devices) for further information. 
       
     1. Login to the virtual appliance using your management interface and a secure shell client
-    2. Select `Input license key`
+    2. Select **Input license key**
     3. Input your `Device Name` and `License Key` from [ETS](https://ets.leocybersecurity.com/).  Your virtual appliance will reach out
        and download a custom configuration for your device from LEO at this step
 
@@ -64,5 +64,5 @@ At this point, your virtual appliance will reach out to the LEO management VPN a
 
 # Post configuration tasks
 
-You can follow along with the deployment by tracking the `status` page.
+You can follow along with the deployment by tracking the **status** page.
 

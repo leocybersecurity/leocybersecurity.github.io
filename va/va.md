@@ -8,12 +8,11 @@ permalink: /virtual-appliance/
 This document is to help LEO customers navigate the documentation available for the LEO Virtual Appliance product.
 
 # Table of Contents
-* [Getting Started]()
+* Getting Started
     * [Available Features](available-features-1.0)
-    * [Licensing]()
     * [Minimum Requirements for your virtual appliance host](minimum-requirements)
-    * [Setting up your network in promiscuous mode]()
+    * [Setting up your network in promiscuous mode](enabling-promiscuous-mode)
 * [Install the virtual appliance](install)
-* [Configure the virtual appliance]()
-* [Monitor the virtual appliance]()
-* [Upgrading]()
+* Configure the virtual appliance
+* Monitor the virtual appliance
+* Upgrading
