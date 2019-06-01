@@ -8,6 +8,7 @@ exclude: True
 # About this document
 This document provides information for network administrators about how to enable promiscuous mode for Hyper-V virtual environments.  **Please note:** LEO does not officially support running the Virtual Appliance in a Hyper-V environment at this time.
 
+# How to Enable Promiscuous Mode in Hyper-V
 1. If running the Virtual Appliance on Hyper-V R2 2012, please ensure [this hotfix is installed](https://support.microsoft.com/en-us/help/2885541/packet-sniffing-tool-does-not-sniff-all-network-traffic-through-port-m)
 2. Open the **Hyper-V Manager** and right-click the machine that you want to use to capture mirrored traffic
 3. Select **Settings**
