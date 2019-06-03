@@ -6,10 +6,10 @@ exclude: True
 ---
 
 # About this document
-This document provides information for network administrators about how to enable promiscuous mode on their network, so that the Virtual Appliance can inspect traffic for threats
+This document provides information for network administrators about how to enable promiscuous mode on their network, so that the Virtual Appliance can inspect traffic for threats.
 
 # Physical Networks
-Lorem ipsum dolor set amet
+Please reference your network infrastructure provider's documentation for mirroring both ingress and egress traffic.
 
 # Virtual Networks
 
