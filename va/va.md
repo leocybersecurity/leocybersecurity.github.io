@@ -13,6 +13,4 @@ This document is to help LEO customers navigate the documentation available for 
     * [Minimum Requirements for your virtual appliance host](minimum-requirements)
     * [Setting up your network in promiscuous mode](enabling-promiscuous-mode)
 * [Install the virtual appliance](install)
-* Configure the virtual appliance
 * Monitor the virtual appliance
-* Upgrading
