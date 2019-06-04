@@ -42,6 +42,7 @@ This document helps LEO customers install the VA from scratch on a brand new vir
         * at least one number
         * at least one special character
         * not a palindrome (example: *tacocat, borroworrob*)
+        * does not contain a dictionary password (example: password, admin, customer)
 
        Once you update the password, the interface will log out automatically
 2. Configure the interfaces
