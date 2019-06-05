@@ -10,11 +10,10 @@ exclude: True
 This document provides more details about how to configure and manage the network interfaces for the virtual appliance.
 
 # Important Notes
-* Once the management interface is configured, we recommend using a secure shell client to cut and paste the device name and
+* Once the management interface is configured, we recommend using a secure shell client to insert (via cut and paste) the device name and
   license key into the interface. 
 
 # Common Problems
 * **I can't paste into the interface!**  Some SSH clients change the way they paste into restricted shells.  Hold down the 
   `shift` key to override this behavior.
-* **Applying the changes failed!**  Please make certain you have configured the virtual appliance for Internet access over 
-  the management interface.
+* **Applying the changes failed!**  This error occurs when the appliance cant reach LEO's servers.  Please make certain you have configured the virtual appliance for Internet access over the management interface.  If this is configured correctly, please use [LEO ETS](https://ets.leocybersecurity.com) to contact support.

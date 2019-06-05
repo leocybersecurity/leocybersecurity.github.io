@@ -6,20 +6,20 @@ exclude: True
 ---
 
 # About this document
-This document helps LEO customers install the VA from scratch on a brand new virtual machine or dedicated appliance.  Customers should make certain to review the [minimum requirements](minimum-requirements) before proceeding.
+This document helps LEO customers install the LEO Virtual Appliance from scratch on a brand new virtual machine or dedicated appliance.  Customers should make certain to review the [minimum requirements](minimum-requirements) before proceeding.
 
 # Before You Begin
-1. Retrieve your device ID and license key from [ETS](https://ets.leocybersecurity.com/)
+1. Retrieve your device ID and license key from [LEO ETS](https://ets.leocybersecurity.com/)
 2. Install a secure shell client on your desktop machine
 3. Setup your host VM according to the [minimum requirements](minimum-requirements)
 4. Setup your network devices to use promiscuous mode.  Please see your network equipment manufacturer's documentation for more information
-5. Setup your management interface for Internet access.  Your management interface will need to reach the following end-points:
+5. Setup your management interface for Internet access.  Your management interface will need to reach the following endpoints:
     * https://mvpn.leocybersecurity.com
     * https://lvpn.leocybersecurity.com
     * https://hfystmmgp5.execute-api.us-east-2.amazonaws.com (configuration only)
     * https://s3.us-east-2.amazonaws.com (configuration only)
 
-# Step 1: Download and mount the ISO from LEO Cybser Security
+# Step 1: Download and mount the ISO from LEO Cyber Security
 1. Visit [https://iso.leocybersecurity.com/latest/](https://iso.leocybersecurity.com/latest/)
 2. Download the ISO (the file is about 760 MB)
 3. Place the ISO in a storage location accessible to your virtualization environment
@@ -56,14 +56,14 @@ This document helps LEO customers install the VA from scratch on a brand new vir
 
     > **Note**: Please see [more about devices](more-about-devices) for further information. 
       
-    1. Login to the virtual appliance using your management interface and a secure shell client
+    1. Login to the management interface on the virtual appliance using a secure shell client
     2. Select **Input license key**
-    3. Input your `Device Name` and `License Key` from [ETS](https://ets.leocybersecurity.com/).  Your virtual appliance will reach out
-       and download a custom configuration for your device from LEO at this step
+    3. Input your `Device Name` and `License Key` from [LEO ETS](https://ets.leocybersecurity.com/).  Your virtual appliance will reach out
+       and download a custom configuration for your device from LEO
 
 At this point, your virtual appliance will reach out to the LEO management VPN and being deploying our technology stack.  Depending on your Internet connection, this can take between 10 and 30 minutes.
 
 # Post configuration tasks
 
-You can follow along with the deployment by tracking the **status** page.
+You can follow along with the deployment by visiting the **status** page.
 

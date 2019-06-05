@@ -7,7 +7,7 @@ exclude: True
 
 # About this document
 
-This document provides more details about how to configure and manage the network interfaces for the virtual appliance.
+This document provides more details about how to configure and manage the network interfaces for the LEO Virtual Appliance.
 
 # Important Notes
 * LEO designed the virtual appliance to function with two interfaces: one for monitoring traffic (the "promiscuous" interface)
